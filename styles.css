@@ -66,13 +66,17 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
-  height: 100vh;
-  padding: 2rem 1.6rem;
   background-color: var(--c-secondary);
   color: var(--c-primary);
   font-family: "Mad Hacker";
@@ -84,6 +88,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  padding: 2rem 1.6rem;
 }
 
 h1 {
@@ -112,6 +117,10 @@ h1 {
   box-shadow: 0 0.4rem 5rem hsla(0, 0%, 0%, 0.25);
 }
 
+#error-msg {
+  max-width: min-content;
+}
+
 #hacked-msg {
   position: absolute;
   top: 30rem;
@@ -123,6 +132,7 @@ h1 {
 
 .link-button {
   color: inherit;
+  background-color: var(--c-tertiary);
   font-size: var(--f-14);
   line-height: 2.4rem;
   box-shadow: -0.5rem -0.5rem var(--c-primary), 0.5rem 0.5rem var(--c-primary);
@@ -145,6 +155,9 @@ h1 {
 @media only screen and (min-width: 768px) {
   body {
     font-size: var(--f-24);
+  }
+
+  main {
     padding: 7rem 2.4rem;
   }
 
@@ -161,7 +174,6 @@ h1 {
     top: 53.5rem;
   }
 
-
   .link-button {
     font-size: var(--f-18);
   }
@@ -169,7 +181,7 @@ h1 {
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
-  body {
+  main {
     padding: 17.2rem 14.4rem;
   }
 
@@ -195,6 +207,6 @@ h1 {
 
   .link-button {
     position: absolute;
-    top: 75rem;
+    top: 70rem;
   }
 }
