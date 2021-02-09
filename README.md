@@ -34,7 +34,7 @@
 ![Mobile View](./.README/examples/mobile.png)
 </details>
 
-### 👨‍💻 Built With
+## 👨‍💻 Built With
 
 - HTML
 - CSS
