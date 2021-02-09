@@ -13,9 +13,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Acknowledgements](#acknowledgements)
+- [Built With](#built-with)
 
 ## 🎨Overview
 
