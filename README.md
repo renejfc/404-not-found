@@ -19,17 +19,23 @@
 
 <details>
   <summary>💻 Desktop version</summary>
+  
 ![Dekstop View](./.README/examples/desktop.png)
+
 </details>
 
 <details>
   <summary>📺 Tablet version</summary>
+  
 ![Tablet View](./.README/examples/tablet.png)
+
 </details>
 
 <details>
   <summary>📱 Mobile version</summary>
+  
 ![Mobile View](./.README/examples/mobile.png)
+
 </details>
 
 ## 👨‍💻 Built With
