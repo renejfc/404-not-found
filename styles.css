@@ -137,6 +137,7 @@ h1 {
   line-height: 2.4rem;
   box-shadow: -0.5rem -0.5rem var(--c-primary), 0.5rem 0.5rem var(--c-primary);
   padding: 1.8rem 2.4rem;
+  transition: 0.5s ease-in-out;
 }
 
 .link-button:hover {
